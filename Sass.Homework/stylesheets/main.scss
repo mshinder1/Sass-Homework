@@ -1,0 +1,30 @@
+//This is the imported NavBar
+@import 'NavBar.scss';
+
+
+$defaultRed: #ff0000;
+
+$defaultWhite: #ffffff;
+
+body{
+	background-color: $defaultRed;
+}
+//These are the paragraphs with ids. Use @extend here.
+#p1{
+	color: $defaultWhite;
+}
+#p2{
+	@extend #p1;
+}
+#p3{
+	@extend #p1;
+}
+#p4{
+	@extend #p1;
+}
+#p5{
+	@extend #p1;
+}
+h1{
+	color: $defaultWhite;
+}

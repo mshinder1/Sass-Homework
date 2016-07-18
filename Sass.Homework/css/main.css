@@ -1,0 +1,15 @@
+nav li {
+  display: inline;
+  list-style-type: none;
+  padding: 25px; }
+
+body {
+  background-color: #ff0000; }
+
+#p1, #p2, #p3, #p4, #p5 {
+  color: #ffffff; }
+
+h1 {
+  color: #ffffff; }
+
+/*# sourceMappingURL=main.css.map */
